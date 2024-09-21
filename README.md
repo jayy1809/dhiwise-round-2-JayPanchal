@@ -40,9 +40,18 @@
 ### Starting the Streamlit Frontend
 
 1. Open a new terminal window and activate the virtual environment (if not already activated).
+    - On Windows:
+     ```
+     venv\Scripts\activate
+     ```
+   - On macOS and Linux:
+     ```
+     source venv/bin/activate
+     ```
 
 
-2. Start the Streamlit app:
+
+3. Start the Streamlit app:
    ```
    streamlit run meeting_frontend.py
    ```
