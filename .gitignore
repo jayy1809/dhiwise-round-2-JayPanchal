@@ -1,0 +1,5 @@
+.env
+/data
+newvenv/
+__pycache__/
+env/
