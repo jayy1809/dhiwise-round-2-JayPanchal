@@ -12,7 +12,7 @@ embed_model = OpenAIEmbedding(
 )
 
 
-def query_data(index_name, namespace, query, k_value=5):
+def query_data(index_name, namespace, query, k_value=10):
     try:
         pinecone_index = pinecone_client.Index(index_name)
     except Exception as e:
