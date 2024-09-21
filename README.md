@@ -1,3 +1,15 @@
+## Get API keys from here 
+
+To get started, you will need API keys from the following platforms:
+
+- [Groq Console](https://console.groq.com/keys)
+- [LlamaIndex](https://cloud.llamaindex.ai/api-key)
+- [AssemblyAI](https://www.assemblyai.com/app/)
+- [Pinecone](https://docs.pinecone.io/guides/get-started/quickstart)
+- [OpenAI](https://platform.openai.com/api-keys)
+
+
+
 ## Setup
 
 1. Clone the repository:
@@ -27,6 +39,8 @@
    ```
 
 ## Running the Application
+
+once the repository is successfully cloned create a .env file and add api keys as shown in .env.example
 
 ### Starting the FastAPI Backend
 
